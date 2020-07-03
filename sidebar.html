@@ -88,13 +88,6 @@
   return listecartesB[0];
 };
 
-var test = document.getElementById("img1");
-//Change the source of the images
- function images() {
- return test.src;
-    };
-    
- document.getElementById("Bouton").onclick = images();
 </script>
     
 <div class="Titre"><img src="https://mimisterio92220.github.io/randomcards/Titre.png"  width="200"></div>
@@ -103,5 +96,15 @@ var test = document.getElementById("img1");
 <div class="Cartes"><img id="img2" src="https://mimisterio92220.github.io/randomcards/Dos_Inspiration_InnoPositive_FR.png"  width="125"></img></div></div>
 <button id="Bouton">Mélanger</button>
 
+<script>
+var test = document.getElementById("img1");
+let btn = document.querySelector('Bouton');
+//Change the source of the images
+ function images() {
+ return test.src;
+    };
+    
+ document.getElementById("Bouton").onclick = images();
+</script>
 </body>
 </html>
