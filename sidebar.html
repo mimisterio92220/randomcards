@@ -56,7 +56,7 @@
   function Shuffle() {
   var index
   var temp
-  const ctrA = listecartesA.length;
+  var ctrA = listecartesA.length;
   while (ctrA > 0) {
   index = Math.floor(Math.random() * ctrA);
     ctrA--;
@@ -66,7 +66,7 @@
   }
   var index
   var temp
-  const ctrB = listecartesB.length;
+  var ctrB = listecartesB.length;
   while (ctrB > 0) {
   index = Math.floor(Math.random() * ctrB);
     ctrB--;
@@ -100,7 +100,7 @@
 <div class="Consigne">Consigne pour les cartes</div><br>
 <div><div class="Cartes"><img id="img1" src="https://mimisterio92220.github.io/randomcards/Dos_Contexte_InnoPositive_FR.png"  width="125"></img></div>
 <div class="Cartes"><img id="img2" src="https://mimisterio92220.github.io/randomcards/Dos_Inspiration_InnoPositive_FR.png"  width="125"></img></div></div>
-<button id="Bouton" onclick="images()">Mélanger</button>
+<button id="Bouton">Mélanger</button>
 
 <script>
     // The main game
