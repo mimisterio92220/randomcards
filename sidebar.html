@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://miro.com/app/static/sdk.1.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <style>
         div {
             text-align : center;
@@ -93,13 +92,15 @@
  document.getElementById("img1").src=getCardA();
  document.getElementById("img2").src=getCardB();
     };
+    
+ document.getElementById("Bouton").onclick = images();
 </script>
     
 <div class="Titre"><img src="https://mimisterio92220.github.io/randomcards/Titre.png"  width="200"></div>
 <div class="Consigne">Consigne pour les cartes</div><br>
 <div><div class="Cartes"><img id="img1" src="https://mimisterio92220.github.io/randomcards/Dos_Contexte_InnoPositive_FR.png"  width="125"></img></div>
 <div class="Cartes"><img id="img2" src="https://mimisterio92220.github.io/randomcards/Dos_Inspiration_InnoPositive_FR.png"  width="125"></img></div></div>
-<button id="Bouton" onclick="images('')">Mélanger</button>
+<button id="Bouton">Mélanger</button>
 
 </body>
 </html>
