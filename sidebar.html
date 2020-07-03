@@ -54,9 +54,10 @@
 
 // Function to shuffle cards from A & B list
   function Shuffle() {
+  const index
   const ctrA = listecartesA.length, temp, index;
   while (ctrA > 0) {
-  const index = Math.floor(Math.random() * ctrA);
+  index = Math.floor(Math.random() * ctrA);
     ctrA--;
     temp = listecartesA[ctrA];
     listecartesA[ctrA] = listecartesA[index];
