@@ -90,7 +90,9 @@
 
 //Change the source of the images
  function images() {
- document.getElementById("img1").src = "coucou";
+ const test = document.getElementById("img1");
+ test.src = "coucou";
+ return test.src;
     };
     
  document.getElementById("Bouton").onclick = images();
