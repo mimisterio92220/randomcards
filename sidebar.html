@@ -88,19 +88,13 @@
   return listecartesB[0];
 };
 
-</script>
-<script>
-
-//Change the source of the images
+  //Change the source of the images
  function images() {
  document.getElementById("img1").src = getCardA();
  document.getElementById("img2").src = getCardB();
     };
- 
-    
-    // The main game
- document.getElementById("Bouton").onclick = images();
 </script>
+
     
 <div class="Titre"><img src="https://mimisterio92220.github.io/randomcards/Titre.png"  width="200"></div>
 <div class="Consigne">Consigne pour les cartes</div><br>
@@ -108,5 +102,9 @@
 <div class="Cartes"><img id="img2" src="https://mimisterio92220.github.io/randomcards/Dos_Inspiration_InnoPositive_FR.png"  width="125"></img></div></div>
 <button id="Bouton" onclick="images()">Mélanger</button>
 
+<script>
+    // The main game
+ document.getElementById("Bouton").onclick = images();
+</script>
 </body>
 </html>
