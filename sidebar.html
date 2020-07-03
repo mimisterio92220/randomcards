@@ -90,8 +90,9 @@
 
 //Change the source of the images
  function images() {
- img1.src = getCardA()
- img2.src = getCardB()
+ img1.src = getCardA();
+ img2.src = getCardB();
+ return document.getElementById("img1");
     };
     
  document.getElementById("Bouton").onclick = images();
