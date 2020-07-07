@@ -1,5 +1,5 @@
 miro.onReady(() => {
-  const icon24 = '<g id="Layer_3" data-name="Layer 3"><path class="cls-1" d="M26.82,38,13.74,42.28a.53.53,0,0,1-.67-.34L2.53,10.05a.53.53,0,0,1,.33-.67L23.6,2.53a.52.52,0,0,1,.66.33l3.6,10.89" fill="none" fill-opacity="0" stroke-miterlimit="10" stroke="#000000" stroke-width="5"/><path class="cls-1" d="M31.16,37.81l12.43,4.47a.53.53,0,0,0,.67-.34L54.81,10.05a.53.53,0,0,0-.34-.67L33.74,2.53a.53.53,0,0,0-.67.33l-3.64,11"/><path class="cls-2" d="M28.63,11.74c5.9,7.49,11.09,26.42.24,26.42C16.68,38.16,22.11,19.56,28.63,11.74Z" fill="none" stroke-miterlimit="10" stroke-width="5" stroke-linecap="round"/></g>'
+  const icon24 = '<g id="Layer_3"><path class="st0" d="M8.7,11.6l-3.3,1.1c-0.1,0-0.1,0-0.2-0.1c0,0,0,0,0,0L2.5,4.4c0-0.1,0-0.1,0.1-0.2l5.3-1.7c0.1,0,0.1,0,0.2,0.1c0,0,0,0,0,0L9,5.4" fill="none" stroke="#000000" stroke-miterlimit="10"/><path class="st0" d="M9.8,11.5l3.2,1.1c0.1,0,0.1,0,0.2-0.1c0,0,0,0,0,0l2.7-8.1c0-0.1,0-0.1-0.1-0.2c0,0,0,0,0,0l-5.3-1.7c-0.1,0-0.1,0-0.2,0.1L9.4,5.4" fill="none" stroke="#000000" stroke-miterlimit="10"/><path class="st1" d="M9.2,4.9c1.5,1.9,2.8,6.7,0.1,6.7C6.1,11.6,7.5,6.9,9.2,4.9z"fill="none" stroke="#000000" stroke-miterlimit="10" stroke-linecap="round"/></g>'
   miro.initialize({
     extensionPoints: {
       bottomBar: {
