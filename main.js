@@ -1,5 +1,5 @@
 miro.onReady(() => {
-  const icon24 = '<svg><g><path d="M10.29,4.12c2.15,2.74,4.05,9.65.09,9.65C5.93,13.77,7.91,7,10.29,4.12Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5px" stroke-linecap="round"></g></svg>'
+  const icon24 = '<svg><g><path d="M10.29,4.12c2.15,2.74,4.05,9.65.09,9.65C5.93,13.77,7.91,7,10.29,4.12Z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5px" stroke-linecap="round"/></g></svg>'
   miro.initialize({
     extensionPoints: {
       bottomBar: {
