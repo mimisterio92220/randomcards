@@ -196,9 +196,11 @@ function Modal1() {
   modal.style.display = "block";
   modalImg.src = img.src;
   captionText.innerHTML = img.alt;
+  var initial_cross = document.getElementByClassName("left-sidebar__close");
+  initial_cross.position = "relative";
 };
 
-    //Modal for image 1
+    //Modal for image 2
 function Modal2() {
   var modal = document.getElementById("myModal");
   var img = document.getElementById("img2");
@@ -207,6 +209,8 @@ function Modal2() {
   modal.style.display = "block";
   modalImg.src = img.src;
   captionText.innerHTML = img.alt;
+  var initial_cross = document.getElementByClassName("left-sidebar__close");
+  initial_cross.position = "relative";
 };
 
 // Get the <span> element that closes the modal
@@ -216,6 +220,8 @@ var span = document.getElementsByClassName("close")[0];
 function Close() {
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
+  var initial_cross = document.getElementByClassName("left-sidebar__close");
+  initial_cross.position = "absolute";
 }
 </script>
 
